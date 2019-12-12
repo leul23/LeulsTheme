@@ -30,11 +30,25 @@
 		</a>
 		<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'leulstheme' ); ?></button>
 		<?php
-		wp_nav_menu( array(
-			'theme_location' => 'menu-1',
-			'menu_id'        => 'primary-menu',
-		) );
+		// wp_nav_menu( array(
+		// 	'theme_location' => 'menu-1',
+		// 	'menu_id'        => 'primary-menu',
+		// ) );
 		?>
+		<?php
+            wp_nav_menu([
+            'menu'            => 'primary-menu',
+            'theme_location'  => 'menu-1',
+            'container'       => 'div',
+            'container_id'    => 'navbarCollapse',
+            'container_class' => 'collapse navbar-collapse',
+            'menu_id'         => false,
+            'menu_class'      => 'navbar-nav mr-auto',
+            'depth'           => 0,
+            'fallback_cb'     => 'functions::fallback',
+            'walker'          => new RadTheme_navbar()
+            ]);
+        ?>
 	</nav><!-- #site-navigation -->
 
 	<header id="masthead" class="site-header">
