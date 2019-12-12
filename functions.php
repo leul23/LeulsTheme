@@ -120,6 +120,8 @@ add_action( 'widgets_init', 'leulstheme_widgets_init' );
  * Enqueue scripts and styles.
  */
 function leulstheme_scripts() {
+	wp_enqueue_style( "newcss", get_template_directory_uri().'/css/newcss.css', array(), '1.0', 'all' );
+
 	wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css' );
 	
 	wp_enqueue_style( 'core', get_template_directory_uri() . '/style.css' );
