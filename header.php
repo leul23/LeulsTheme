@@ -40,20 +40,7 @@
             'walker'          => new leulstheme_navbar()
 		) );
 		?>
-		<?php
-            // wp_nav_menu([
-            // 'menu'            => 'primary-menu',
-            // 'theme_location'  => 'menu-1',
-            // 'container'       => 'div',
-            // 'container_id'    => 'navbarCollapse',
-            // 'container_class' => 'collapse navbar-collapse',
-            // 'menu_id'         => false,
-            // 'menu_class'      => 'navbar-nav mr-auto',
-            // 'depth'           => 0,
-            // 'fallback_cb'     => 'functions::fallback',
-            // 'walker'          => new leulstheme_navbar()
-            // ]);
-        ?>
+		
 	</nav><!-- #site-navigation -->
 
 	<header id="masthead" class="site-header">
