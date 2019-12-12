@@ -46,7 +46,7 @@
             'menu_class'      => 'navbar-nav mr-auto',
             'depth'           => 0,
             'fallback_cb'     => 'functions::fallback',
-            'walker'          => new RadTheme_navbar()
+            'walker'          => new leulstheme_navbar()
             ]);
         ?>
 	</nav><!-- #site-navigation -->
