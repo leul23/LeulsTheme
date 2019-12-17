@@ -65,3 +65,10 @@
     color: #CCCBCB;
     background-color: #343A40;
 }
+
+#secondary{
+    padding: 1rem;
+}
+.widget ul li{
+    list-style-type: none;
+}
