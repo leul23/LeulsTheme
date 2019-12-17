@@ -37,11 +37,10 @@ get_header();
 				</main><!-- #main -->
 			</div><!-- #primary -->
 			</div>
+			</div>
 		<div class="col-sm-4">
 		<?php get_sidebar(); ?>
 		</div>
 	</div>
 </div>
-<?php
-get_sidebar();
-get_footer();
+<?php get_footer(); ?>
