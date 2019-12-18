@@ -15,6 +15,29 @@
 
 	<footer id="colophon" class="page-footer font-small bottom pt-4">
 		<div class="container-fluid text-center text-md-left">
+			<div id="footer-sidebar" class="secondary">
+				<div id="footer-sidebar1">
+				<?php
+				if(is_active_sidebar('footer-sidebar-1')){
+				dynamic_sidebar('footer-sidebar-1');
+				}
+				?>
+				</div>
+				<div id="footer-sidebar2">
+				<?php
+				if(is_active_sidebar('footer-sidebar-2')){
+				dynamic_sidebar('footer-sidebar-2');
+				}
+				?>
+				</div>
+				<div id="footer-sidebar3">
+				<?php
+				if(is_active_sidebar('footer-sidebar-3')){
+				dynamic_sidebar('footer-sidebar-3');
+				}
+				?>
+				</div>
+			</div>
 			<div class="footer-copyright text-center py-3">© 2019 Copyright:
 			<div class="site-info">
 				<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'leulstheme' ) ); ?>">
