@@ -64,6 +64,7 @@
 #colophon{
     color: #CCCBCB;
     background-color: #343A40;
+    /* background-image: url('../assets/images/footer.png'); */
 }
 
 #secondary{
@@ -84,5 +85,6 @@
     color: black;
 }
 .widget ul li a:hover{
-    text-decoration: none;
+    text-decoration: underline;
+    border-radius: 10%;
 }
