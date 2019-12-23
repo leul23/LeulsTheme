@@ -93,3 +93,6 @@
     border-bottom: #F2F2F3 0.125em ridge;
     text-align: right;
 }
+.card{
+    padding: 10px;
+}
