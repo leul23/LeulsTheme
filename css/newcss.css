@@ -69,6 +69,20 @@
 #secondary{
     padding: 1rem;
 }
+
+.widget{
+    font-family: 'comic sans ms';
+}
 .widget ul li{
     list-style-type: none;
+    text-decoration: none;
+}
+.widget ul li a:link,
+.widget ul li a:visited,
+.widget ul li a:active{
+    text-decoration: none;
+    color: black;
+}
+.widget ul li a:hover{
+    text-decoration: none;
 }
