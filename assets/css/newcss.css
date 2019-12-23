@@ -66,25 +66,30 @@
     background-color: #343A40;
     /* background-image: url('../assets/images/footer.png'); */
 }
-
 #secondary{
     padding: 1rem;
 }
-
 .widget{
-    font-family: 'comic sans ms';
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .widget ul li{
     list-style-type: none;
     text-decoration: none;
+    text-align: right;
 }
 .widget ul li a:link,
 .widget ul li a:visited,
 .widget ul li a:active{
     text-decoration: none;
-    color: black;
+    color: #73CEAD;
 }
 .widget ul li a:hover{
-    text-decoration: underline;
+    text-decoration: none;
     border-radius: 10%;
+    color: #1B274A;
+}
+.widget-title{
+    margin-bottom: 5%;
+    border-bottom: #F2F2F3 0.125em ridge;
+    text-align: right;
 }
