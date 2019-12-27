@@ -129,6 +129,8 @@
     border-style: groove;
     margin-bottom: 5%;
 }
-/* #cont{
-    margin-left: 5%;
-} */
+#post-title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-variant: small-caps;
+    font-size: 500%;
+}
