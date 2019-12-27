@@ -22,13 +22,13 @@
 .footerNav{
     float: right;
 }
-#cont{
+/* #cont{
     padding: 3rem;
     border: rgb(27, 13, 126) solid;
     border-radius: 2rem;
     background-color: honeydew;
     margin: 5rem;
-}
+} */
 #posts{
     margin-top: 1rem;
     padding: 3rem;
@@ -125,3 +125,10 @@
     text-decoration: none;
     color: #73CEAD;
 }
+#blog-br{
+    border-style: groove;
+    margin-bottom: 5%;
+}
+/* #cont{
+    margin-left: 5%;
+} */

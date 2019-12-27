@@ -51,10 +51,12 @@
 			'after'  => '</div>',
 		) );
 		?>
-		<div id="blog-br"></div>
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
 		<?php leulstheme_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
+	<br>
+	<div id="blog-br"></div>
+
 </article><!-- #post-<?php the_ID(); ?> -->
