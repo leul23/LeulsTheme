@@ -96,3 +96,25 @@
 .card{
     padding: 10px;
 }
+.footer-widget{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.footer-widget ul li{
+    list-style-type: none;
+    text-decoration: none;
+}
+.footer-widget ul li a:link,
+.footer-widget ul li a:visited,
+.footer-widget ul li a:active{
+    text-decoration: none;
+    color: #73CEAD;
+}
+.footer-widget ul li a:hover{
+    text-decoration: none;
+    border-radius: 10%;
+    color: #1B274A;
+}
+.footer-widget-title{
+    margin-bottom: 5%;
+    border-bottom: #F2F2F3 0.125em ridge;
+}
