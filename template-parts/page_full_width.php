@@ -8,7 +8,7 @@
 
 get_header();
 ?>
-
+<div class="container">
 <div id="primary" class="content-area">
 	<main id="main" class="site-main">
 		<?php
@@ -25,6 +25,6 @@ get_header();
 		endwhile; // End of the loop.
 		?>
 	</main><!-- #main -->
-</div><!-- #primary -->
+</div><!-- #primary --></div>
 <?php
 get_footer();

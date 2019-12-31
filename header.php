@@ -21,13 +21,11 @@
 </head>
 
 <body <?php body_class(); ?>>
-<div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'leulstheme' ); ?></a>
 
+<div id="page" class="site">	
+	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'leulstheme' ); ?></a>
 	<nav id="site-navigation"  class="navbar navbar-expand-md navbar-light top bg-light">
-		<a class="navbar-brand" href="#">
-				<?php bloginfo('name'); ?>
-		</a>
+		<a class="navbar-brand" href="#"><?php bloginfo('name'); ?></a>
 		<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'leulstheme' ); ?></button>
 		<?php
 		wp_nav_menu( array(
@@ -40,9 +38,10 @@
             'walker'          => new leulstheme_navbar()
 		) );
 		?>
-		
 	</nav><!-- #site-navigation -->
-
+	<!-- <div id="transparent">
+		<img src="../assets/images/4.jpg" alt="">
+	</div> -->
 	<header id="masthead" class="site-header">
 		<div class="site-branding">
 			<br>
