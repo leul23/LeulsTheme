@@ -82,3 +82,12 @@
   width: 100%;
   height: 100%;
 }
+#footer-link:link,
+#footer-link:visited,
+#footer-link:active{
+    text-decoration: none;
+    color: #CCCBCB;
+}
+#footer-link:hover{
+    color: beige;
+}

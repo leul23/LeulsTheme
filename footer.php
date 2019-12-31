@@ -45,19 +45,19 @@
 				?>
 				</div>
 			</div>
-			<div class="footer-copyright text-center py-3">© 2019 Copyright:
+			<div class="footer text-center py-3">
 			<div class="site-info">
-				<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'leulstheme' ) ); ?>">
+				<?php
+				/* translators: 1: Theme name, 2: Theme author. */
+				printf( esc_html__( 'Theme: %1$s by Leul Mebratu.', 'leulstheme' ), 'leulstheme' );
+				?>
+				<span class="sep"> | </span>
+				<a id="footer-link" href="<?php echo esc_url( __( 'https://wordpress.org/', 'leulstheme' ) ); ?>">
 					<?php
 					/* translators: %s: CMS name, i.e. WordPress. */
 					printf( esc_html__( 'Proudly powered by %s', 'leulstheme' ), 'WordPress' );
 					?>
 				</a>
-				<span class="sep"> | </span>
-					<?php
-					/* translators: 1: Theme name, 2: Theme author. */
-					printf( esc_html__( 'Theme: %1$s by %2$s.', 'leulstheme' ), 'leulstheme', '<a href="http://underscores.me/">Underscores.me</a>' );
-					?>
 			</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
