@@ -75,6 +75,7 @@
 }
 #transparent{
   background-color: rgba(27, 28, 29, 0.812);
+  /* background-image: url(../images/4.jpg); */
   position: absolute;
   /* top: 0;
   left: 0; */

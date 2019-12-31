@@ -40,7 +40,6 @@
 		?>
 	</nav><!-- #site-navigation -->
 	<!-- <div id="transparent">
-		<img src="../assets/images/4.jpg" alt="">
 	</div> -->
 	<header id="masthead" class="site-header">
 		<div class="site-branding">
