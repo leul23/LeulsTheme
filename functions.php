@@ -201,6 +201,11 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+function leulstheme_add_editor_styles() {
+    add_editor_style( '/assets/css/custom-editor-style.css' );
+}
+add_action( 'admin_init', 'leulstheme_add_editor_styles' );
+
 class leulstheme_navbar extends Walker_Nav_Menu
 {
     public function start_lvl( &$output, $depth = 0, $args = array() ) {
