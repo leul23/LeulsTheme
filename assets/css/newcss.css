@@ -5,21 +5,21 @@
 #secondary{
     padding: 1rem;
 }
-.widget{
+.side-widget{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.widget ul li{
+.side-widget ul li{
     list-style-type: none;
     text-decoration: none;
     text-align: right;
 }
-.widget ul li a:link,
-.widget ul li a:visited,
-.widget ul li a:active{
+.side-widget ul li a:link,
+.side-widget ul li a:visited,
+.side-widget ul li a:active{
     text-decoration: none;
     color: #73CEAD;
 }
-.widget ul li a:hover{
+.side-widget ul li a:hover{
     text-decoration: none;
     border-radius: 10%;
     color: #1B274A;
@@ -53,6 +53,13 @@
 .footer-widget-title{
     margin-bottom: 5%;
     border-bottom: #F2F2F3 0.125em ridge;
+}
+.widget{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.widget ul li{
+    list-style-type: none;
+    text-decoration: none;
 }
 
 #main a:link,
@@ -101,6 +108,21 @@
 
 }
 .widget-area section form .search-field {
+    padding-left: 8%;
+    padding-right: 8%;
+    font-size: 15px;
+    border: groove;
+}
+main div form .search-submit {
+    background-color: #73CEAD;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 15px;
+    margin-left: 35px;
+    border: outset;
+
+}
+main div form .search-field {
     padding-left: 8%;
     padding-right: 8%;
     font-size: 15px;
