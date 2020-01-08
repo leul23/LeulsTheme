@@ -91,3 +91,18 @@
 #footer-link:hover{
     color: beige;
 }
+.widget-area section form .search-submit {
+    background-color: #73CEAD;
+    padding-left: 8%;
+    padding-right: 8%;
+    font-size: 15px;
+    margin-left: 35px;
+    border: outset;
+
+}
+.widget-area section form .search-field {
+    padding-left: 8%;
+    padding-right: 8%;
+    font-size: 15px;
+    border: groove;
+}

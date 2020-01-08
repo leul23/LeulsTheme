@@ -46,11 +46,6 @@
 		<div class="site-branding">
 			<br>
 			
-			
-			<!-- // $leulstheme_description = get_bloginfo( 'description', 'display' );
-			// if ( $leulstheme_description || is_customize_preview() ) :
-			// 	 -->
-			<!-- // 	<p class="site-description"><//?php echo $leulstheme_description; /* WPCS: xss ok. */ ?></p> -->
 			<?php //endif; ?>
 		</div><!-- .site-branding -->
 
