@@ -9,6 +9,10 @@
 
 get_header();
 ?>
+<div class="container-fluid" id="cont">
+	<div class="row">
+		<div class="col-sm-1"></div>
+		<div class="col-sm-7">
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
@@ -48,6 +52,12 @@ get_header();
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-<?php
-get_sidebar();
-get_footer();
+	</div>
+		<div id="blog-br"></div>
+
+		<div class="col-sm-3">
+		<?php get_sidebar(); ?>
+		</div>
+	</div>
+</div>
+<?php get_footer(); ?>

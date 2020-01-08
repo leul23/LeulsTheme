@@ -23,6 +23,7 @@
 <body <?php body_class(); ?>>
 
 <div id="page" class="site">	
+<?php the_custom_logo();?>
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'leulstheme' ); ?></a>
 	<nav id="site-navigation"  class="navbar navbar-expand-md navbar-light top bg-light">
 		<a class="navbar-brand" href="#"><?php bloginfo('name'); ?></a>
@@ -44,12 +45,11 @@
 	<header id="masthead" class="site-header">
 		<div class="site-branding">
 			<br>
-			<?php
-			the_custom_logo();
 			
-			// $leulstheme_description = get_bloginfo( 'description', 'display' );
+			
+			<!-- // $leulstheme_description = get_bloginfo( 'description', 'display' );
 			// if ( $leulstheme_description || is_customize_preview() ) :
-			// 	?>
+			// 	 -->
 			<!-- // 	<p class="site-description"><//?php echo $leulstheme_description; /* WPCS: xss ok. */ ?></p> -->
 			<?php //endif; ?>
 		</div><!-- .site-branding -->
