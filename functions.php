@@ -110,7 +110,7 @@ function leulstheme_widgets_init() {
 		'description'   => esc_html__( 'Add widgets here.', 'leulstheme' ),
 		'before_widget' => '<section id="%1$s" class="widget side-widget %2$s">',
 		'after_widget'  => '</section>',
-		'before_title'  => '<div class="card mb-3"><div class="card-body"><h2 class="widget-title">',
+		'before_title'  => '<div class="cards mb-3"><div class="card-body"><h2 class="widget-title">',
 		'after_title'   => '</h2>',
 	) );
 	register_sidebar( array(

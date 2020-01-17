@@ -1,6 +1,6 @@
 #colophon{
     color: #CCCBCB;
-    background-color: #343A40;
+    background-color: rgb(16, 60, 49);
 }
 #secondary{
     padding: 1rem;
@@ -15,6 +15,7 @@
 #site-navigation div ul li div{
     background-color: #85DCB1;
     color: #2F2FA2;
+    border: solid 1px;
 }
 #site-navigation div ul li div a:hover{
     background-color: #2F2FA2;
@@ -44,8 +45,12 @@
     border-bottom: #F2F2F3 0.125em ridge;
     text-align: right;
 }
-.card{
+.cards{
     padding: 10px;
+    border-bottom: groove #73CEAD 30px;
+    border-right: groove #73CEAD 30px;
+    border-top: ridge;
+    border-left: ridge;
 }
 .footer-widget{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -58,12 +63,12 @@
 .footer-widget ul li a:visited,
 .footer-widget ul li a:active{
     text-decoration: none;
-    color: #73CEAD;
+    color: #E27D60;
 }
 .footer-widget ul li a:hover{
     text-decoration: none;
     border-radius: 10%;
-    color: #1B274A;
+    color: rgb(164, 39, 4);
 }
 .footer-widget-title{
     margin-bottom: 5%;
