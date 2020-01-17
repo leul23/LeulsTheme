@@ -5,6 +5,21 @@
 #secondary{
     padding: 1rem;
 }
+#site-navigation{
+    background-color: #85DCB1;
+    border-bottom: groove 5px;
+}
+#site-navigation div ul li a{
+    color: #2F2FA2;
+}
+#site-navigation div ul li div{
+    background-color: #85DCB1;
+    color: #2F2FA2;
+}
+#site-navigation div ul li div a:hover{
+    background-color: #2F2FA2;
+    color: #85DCB1;
+}
 .side-widget{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }

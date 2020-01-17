@@ -25,7 +25,7 @@
 <div id="page" class="site">	
 <?php the_custom_logo();?>
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'leulstheme' ); ?></a>
-	<nav id="site-navigation"  class="navbar navbar-expand-md navbar-light top bg-light">
+	<nav id="site-navigation"  class="navbar navbar-expand-md navbar-light top ">
 		<a class="navbar-brand" href="#"><?php bloginfo('name'); ?></a>
 		<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'leulstheme' ); ?></button>
 		<?php
