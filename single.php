@@ -9,9 +9,10 @@
 
 get_header();
 ?>
-<div class="container">
+<div class="container-fluid">
 	<div class="row">
-		<div class="col-sm-8 card mb-4 mt-3 left top">
+	<div class="col-sm-1"></div>
+		<div class="col-sm-7 card mb-4 mt-3 left top">
 			<div class="card-body">
 				<div id="primary" class="content-area">
 					<main id="main" class="site-main">
@@ -36,7 +37,8 @@ get_header();
 				</div><!-- #primary -->
 			</div>
 		</div>
-		<div class="col-sm-4">
+		<div class="col-sm-3">
+		<div class="col-sm-1"></div>
 		<?php get_sidebar(); ?>
 		</div>
 	</div>

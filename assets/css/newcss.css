@@ -6,20 +6,23 @@
     padding: 1rem;
 }
 #site-navigation{
-    background-color: #85DCB1;
+    background-color: rgb(16, 60, 49);
     border-bottom: groove 5px;
 }
 #site-navigation div ul li a{
-    color: #2F2FA2;
+    color: #73CEAD;
+}
+#site-navigation a{
+    color: #73CEAD;
 }
 #site-navigation div ul li div{
-    background-color: #85DCB1;
+    background-color: rgb(16, 60, 49);
     color: #2F2FA2;
     border: solid 1px;
 }
 #site-navigation div ul li div a:hover{
-    background-color: #2F2FA2;
-    color: #85DCB1;
+    background-color: #85DCB1;
+    color: rgb(16, 60, 49);
 }
 .side-widget{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -72,7 +75,8 @@
 }
 .footer-widget-title{
     margin-bottom: 5%;
-    border-bottom: #F2F2F3 0.125em ridge;
+    border-bottom: #85DCB1 0.125em ridge;
+    color: #73CEAD;
 }
 .widget{
     font-family: Georgia, 'Times New Roman', Times, serif;
