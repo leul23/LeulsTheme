@@ -6,7 +6,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package TheLeul
+ * @package theleul
  */
 
 ?>
@@ -49,13 +49,13 @@
 			<div class="site-info">
 				<?php
 				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by Leul Mebratu.', 'TheLeul' ), 'TheLeul' );
+				printf( esc_html__( 'Theme: %1$s by Leul Mebratu.', 'theleul' ), 'theleul' );
 				?>
 				<span class="sep"> | </span>
-				<a id="footer-link" href="<?php echo esc_url( __( 'https://wordpress.org/', 'TheLeul' ) ); ?>">
+				<a id="footer-link" href="<?php echo esc_url( __( 'https://wordpress.org/', 'theleul' ) ); ?>">
 					<?php
 					/* translators: %s: CMS name, i.e. WordPress. */
-					printf( esc_html__( 'Proudly powered by %s', 'TheLeul' ), 'WordPress' );
+					printf( esc_html__( 'Proudly powered by %s', 'theleul' ), 'WordPress' );
 					?>
 				</a>
 			</div><!-- .site-info -->

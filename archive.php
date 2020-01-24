@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package TheLeul
+ * @package theleul
  */
 
 get_header();

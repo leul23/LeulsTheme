@@ -6,7 +6,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package TheLeul
+ * @package theleul
  */
 
 ?>
@@ -24,10 +24,10 @@
 
 <div id="page" class="site">	
 <?php the_custom_logo();?>
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'TheLeul' ); ?></a>
+	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'theleul' ); ?></a>
 	<nav id="site-navigation"  class="navbar navbar-expand-md navbar-light top ">
 		<a class="navbar-brand" href="#"><?php bloginfo('name'); ?></a>
-		<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'TheLeul' ); ?></button>
+		<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'theleul' ); ?></button>
 		<?php
 		wp_nav_menu( array(
 			'theme_location'  => 'menu-1',
@@ -36,7 +36,7 @@
             'container_id'    => 'navbarCollapse',
 			'container_class' => 'collapse navbar-collapse',
 			'menu_class'      => 'navbar-nav mr-auto',
-            'walker'          => new TheLeul_navbar()
+            'walker'          => new theleul_navbar()
 		) );
 		?>
 	</nav><!-- #site-navigation -->
