@@ -8,33 +8,33 @@
  *
  * @link https://developer.wordpress.org/themes/functionality/custom-headers/
  *
- * @package LeulsTheme
+ * @package TheLeul
  */
 
 /**
  * Set up the WordPress core custom header feature.
  *
- * @uses leulstheme_header_style()
+ * @uses TheLeul_header_style()
  */
-function leulstheme_custom_header_setup() {
-	add_theme_support( 'custom-header', apply_filters( 'leulstheme_custom_header_args', array(
+function TheLeul_custom_header_setup() {
+	add_theme_support( 'custom-header', apply_filters( 'TheLeul_custom_header_args', array(
 		'default-image'          => '',
 		'default-text-color'     => '000000',
 		'width'                  => 1000,
 		'height'                 => 250,
 		'flex-height'            => true,
-		'wp-head-callback'       => 'leulstheme_header_style',
+		'wp-head-callback'       => 'TheLeul_header_style',
 	) ) );
 }
-add_action( 'after_setup_theme', 'leulstheme_custom_header_setup' );
+add_action( 'after_setup_theme', 'TheLeul_custom_header_setup' );
 
-if ( ! function_exists( 'leulstheme_header_style' ) ) :
+if ( ! function_exists( 'TheLeul_header_style' ) ) :
 	/**
 	 * Styles the header image and text displayed on the blog.
 	 *
-	 * @see leulstheme_custom_header_setup().
+	 * @see TheLeul_custom_header_setup().
 	 */
-	function leulstheme_header_style() {
+	function TheLeul_header_style() {
 		$header_text_color = get_header_textcolor();
 
 		/*

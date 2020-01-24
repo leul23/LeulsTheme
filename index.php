@@ -9,7 +9,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package LeulsTheme
+ * @package TheLeul
  */
 
 get_header();

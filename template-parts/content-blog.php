@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package LeulsTheme
+ * @package TheLeul
  */
 
 ?>
@@ -22,21 +22,21 @@
 			?>
 			<div class="entry-meta">
 				<?php
-				// leulstheme_posted_on();
-				// leulstheme_posted_by();
+				// TheLeul_posted_on();
+				// TheLeul_posted_by();
 				?>
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
-	<?php leulstheme_post_thumbnail(); ?>
+	<?php TheLeul_post_thumbnail(); ?>
 
 	<div class="entry-content">
 		<?php
 		the_excerpt( sprintf(
 			wp_kses(
 				/* translators: %s: Name of current post. Only visible to screen readers */
-				__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'leulstheme' ),
+				__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'TheLeul' ),
 				array(
 					'span' => array(
 						'class' => array(),
@@ -47,14 +47,14 @@
 		) );
 
 		wp_link_pages( array(
-			'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'leulstheme' ),
+			'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'TheLeul' ),
 			'after'  => '</div>',
 		) );
 		?>
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
-		<?php leulstheme_entry_footer(); ?>
+		<?php TheLeul_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
 	<br>
 	<div id="blog-br"></div>

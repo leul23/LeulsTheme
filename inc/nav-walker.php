@@ -6,10 +6,10 @@
 
  *
  *
- * @package LeulsTheme
+ * @package TheLeul
  */
 
-class leulstheme_navbar extends Walker_Nav_Menu
+class TheLeul_navbar extends Walker_Nav_Menu
 {
     public function start_lvl( &$output, $depth = 0, $args = array() ) {
         $indent = str_repeat("\t", $depth);
