@@ -41,6 +41,9 @@
 }
 .entry-footer a{
     margin-left: 10px;
+    padding: 8px;
+    background-color: rgb(16, 60, 49);
+    border-radius: 15px;
 }
 .side-widget{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -106,12 +109,18 @@
     list-style-type: none;
     text-decoration: none;
 }
-
 #main a:link,
 #main a:visited,
 #main a:active{
     text-decoration: none;
     color: #73CEAD;
+}
+#main a:link:hover,
+#main a:visited:hover,
+#main a:active:hover{
+    color: #E27D60;
+    margin-bottom: -2px;
+    border-bottom: #E27D60 solid 2px;
 }
 #blog-br{
     border-style: groove;
@@ -210,4 +219,23 @@ main div form .search-field {
 .side-widget #wp-calendar tbody tr td a:active,
 .side-widget #wp-calendar tbody tr td a:visited{
     color: rgb(94, 181, 243); 
+}
+#comments textarea,
+#comments input{
+    border-radius: 10px;
+    border: groove;
+}
+#comments .submit{
+    background-color: #73CEAD;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 15px;
+    border: outset;
+}
+#comments .submit:hover{
+    background-color: #E27D60;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 15px;
+    border: outset;
 }
