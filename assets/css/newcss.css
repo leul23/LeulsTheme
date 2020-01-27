@@ -15,14 +15,32 @@
 #site-navigation a{
     color: #73CEAD;
 }
+#site-navigation a.active,
+#site-navigation a:active{
+    color: #E27D60;
+}
+#site-navigation a:hover{
+    color: #E27D60;
+    margin-bottom: -2px;
+    border-bottom: #E27D60 solid 2px;
+}
 #site-navigation div ul li div{
     background-color: rgb(16, 60, 49);
     color: #2F2FA2;
     border: solid 1px;
 }
+#site-navigation div ul li div a.active,
+#site-navigation div ul li div a:active{
+    background-color: rgb(16, 60, 49);
+    color: #E27D60;
+}
 #site-navigation div ul li div a:hover{
-    background-color: #85DCB1;
-    color: rgb(16, 60, 49);
+    background-color: rgb(16, 60, 49);
+    color: #E27D60;
+    border-bottom: #E27D60 solid 2px;
+}
+.entry-footer a{
+    margin-left: 10px;
 }
 .side-widget{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -36,7 +54,7 @@
 .side-widget ul li a:visited,
 .side-widget ul li a:active{
     text-decoration: none;
-    color: #73CEAD;
+    color: #E27D60;
 }
 .side-widget ul li a:hover{
     text-decoration: none;
@@ -50,10 +68,13 @@
 }
 .cards{
     padding: 10px;
-    border-bottom: groove #73CEAD 30px;
-    border-right: groove #73CEAD 30px;
-    border-top: ridge;
-    border-left: ridge;
+    border-top: groove #73CEAD 10px;
+    border-left: groove #73CEAD 10px;
+    border-radius: 5px;
+    border-bottom: ridge;
+    border-right: ridge;
+    box-shadow: 8px 10px 8px rgb(133, 195, 172);
+
 }
 .footer-widget{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -151,4 +172,42 @@ main div form .search-field {
     padding-right: 8%;
     font-size: 15px;
     border: groove;
+}
+#colophon #wp-calendar{
+    color: #E27D60;   
+}
+#colophon #wp-calendar #today{
+    color: #73CEAD; 
+}
+#colophon #wp-calendar tfoot tr td a:link,
+#colophon #wp-calendar tfoot tr td a:active,
+#colophon #wp-calendar tfoot tr td a:visited{
+    color: #73CEAD; 
+}
+#colophon #wp-calendar tbody tr td a:link,
+#colophon #wp-calendar tbody tr td a:active,
+#colophon #wp-calendar tbody tr td a:visited{
+    color: rgb(94, 181, 243); 
+}
+.side-widget #wp-calendar{
+    color: #E27D60;   
+    padding: 10px;
+    border-top: groove #73CEAD 10px;
+    border-left: groove #73CEAD 10px;
+    border-bottom: ridge;
+    border-right: ridge;
+    box-shadow: 8px 10px 8px rgb(133, 195, 172);
+}
+.side-widget #wp-calendar #today{
+    color: #73CEAD; 
+}
+.side-widget #wp-calendar tfoot tr td a:link,
+.side-widget #wp-calendar tfoot tr td a:active,
+.side-widget #wp-calendar tfoot tr td a:visited{
+    color: #73CEAD; 
+}
+.side-widget #wp-calendar tbody tr td a:link,
+.side-widget #wp-calendar tbody tr td a:active,
+.side-widget #wp-calendar tbody tr td a:visited{
+    color: rgb(94, 181, 243); 
 }
