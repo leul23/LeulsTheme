@@ -42,7 +42,6 @@
 .entry-footer a{
     margin-left: 10px;
     padding: 8px;
-    background-color: rgb(16, 60, 49);
     border-radius: 15px;
 }
 .side-widget{
@@ -174,7 +173,6 @@ main div form .search-submit {
     font-size: 15px;
     margin-left: 35px;
     border: outset;
-
 }
 main div form .search-field {
     padding-left: 8%;
@@ -234,8 +232,4 @@ main div form .search-field {
 }
 #comments .submit:hover{
     background-color: #E27D60;
-    padding-left: 5%;
-    padding-right: 5%;
-    font-size: 15px;
-    border: outset;
 }
